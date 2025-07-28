@@ -1,4 +1,4 @@
-# Autonomous Intelligence System (AIS)
+# Autonomous Intelligence System (AIS) — Enterprise Blueprint
 
 ## Overview
 
@@ -28,3 +28,25 @@ AIS is an enterprise-grade, autonomous intelligence platform inspired by POI’s
 cd prototype
 pip install -r requirements.txt
 docker-compose up
+```
+
+### Deploying Microservices on Kubernetes
+
+```bash
+cd deployment/k8s
+kubectl apply -f ingestion.yaml
+kubectl apply -f nlp.yaml
+# ... apply other services similarly
+```
+
+## Contributing
+
+Please see `CONTRIBUTING.md` for guidelines.
+
+## License
+
+MIT License
+
+---
+
+For questions or enterprise support, contact: [Your Contact Info]
